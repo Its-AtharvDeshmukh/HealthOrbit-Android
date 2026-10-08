@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#F0FDF4"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Center Nucleus -->
+    <path
+        android:fillColor="#0F5A4D"
+        android:pathData="M54,54m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"/>
+
+    <!-- Inner Circle -->
+    <path
+        android:strokeColor="#1B7A6A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,26 A28,28 0 1,1 53.99,26"/>
+
+    <!-- Outer Ring -->
+    <path
+        android:strokeColor="#E57361"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14"/>
+</vector>
